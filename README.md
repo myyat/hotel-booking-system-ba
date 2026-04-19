@@ -2,16 +2,16 @@
 Business Analysis case study of an Online Hotel Booking System
 
 1. Project Overview
-This project is a Business Analysis case study of an online hotel booking system.
-The goal is to understand how users search, book, and manage hotel reservations through a digital platform.
-This project focuses on requirement analysis, system understanding, and documenting business needs.
+Project Name: StayEase — Online Hotel Booking Platform
 
-2. Objective
-- Understand how a hotel booking system works from a business perspective
-- Identify key stakeholders involved in the system
-- Define functional and non-functional requirements
-- Practice writing user stories and acceptance criteria
-- Learn end-to-end Business Analyst workflow
+StayEase is an online hotel booking platform that connects travelers with hotel owners across Southeast Asia. The platform enables users to search, compare, and book accommodations, while allowing hotel owners to list properties, manage availability, and handle reservations through a centralized digital system.
+
+2. Project Objectives
+- Enable hotel owners to list, manage, and update property details, room availability, and pricing through a self-       service digital platform
+- Allow travelers to search, compare, and book hotel accommodations with instant confirmation
+- Support secure online payments and automated booking notifications
+- Provide administrators with tools to manage users, listings, and transactions
+- Reduce reliance on manual booking processes and high-commission third-party platforms
 
 3. Stakeholders
 External Users
