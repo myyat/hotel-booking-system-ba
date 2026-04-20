@@ -24,23 +24,23 @@ Hotel owners have no dedicated digital platform to list and manage their propert
 StayEase Solution:
 StayEase addresses these challenges by providing a centralized platform where travelers can search, compare, and book accommodations with real-time availability and instant confirmation, while hotel owners can manage listings, reservations, and performance metrics through a single digital system.
 
-
-4. Stakeholders 
+4. Stakeholders
+   
 External Users
 - Hotel Guest – Searches, compares, and books hotel accommodations through the platform
 - Hotel Owner – Lists properties and manages room availability, pricing, and reservations
 
-4.2 Business Stakeholders
+Business Stakeholders
 - Product Owner – Defines business goals and approves system features
 - Customer Support Team – Handles user inquiries, complaints, and booking issues
 
-4.3 Technical Stakeholders
+Technical Stakeholders
 - Business Analyst – Gathers and documents system requirements
 - Developers – Build and maintain the system
 - QA/Testers – Test system functionality and ensure quality
 - System Administrator – Manages system operations and user access
 
-4.4 External Systems
+External Systems
 - Payment Gateway – Processes online payments securely
 - Notification Service – Sends booking confirmations via email/SMS
 
