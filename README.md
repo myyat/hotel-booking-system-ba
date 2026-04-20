@@ -25,8 +25,8 @@ StayEase Solution:
 StayEase addresses these challenges by providing a centralized platform where travelers can search, compare, and book accommodations with real-time availability and instant confirmation, while hotel owners can manage listings, reservations, and performance metrics through a single digital system.
 
 
-4. Stakeholders
-4.1 External Users
+4. Stakeholders 
+External Users
 - Hotel Guest – Searches, compares, and books hotel accommodations through the platform
 - Hotel Owner – Lists properties and manages room availability, pricing, and reservations
 
