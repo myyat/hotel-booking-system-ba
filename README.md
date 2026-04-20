@@ -13,6 +13,18 @@ StayEase is an online hotel booking platform that connects travelers with hotel 
 - Provide administrators with tools to manage users, listings, and transactions
 - Reduce reliance on manual booking processes and high-commission third-party platforms
 
+3. Problem Statment
+   
+For Travelers:
+Travelers currently lack a reliable online platform to search and compare hotel accommodations. Without real-time visibility into room availability and pricing, booking decisions become difficult and time-consuming. Additionally, there is no automated confirmation system, requiring users to follow up manually to verify their reservation status.
+
+For Hotel Owners:
+Hotel owners have no dedicated digital platform to list and manage their properties online. Reservations are handled manually through phone calls or walk-in inquiries, leading to inefficiencies and risk of double bookings. Furthermore, owners lack digital tools to track occupancy rates and monitor revenue performance.
+
+StayEase Solution:
+StayEase addresses these challenges by providing a centralized platform where travelers can search, compare, and book accommodations with real-time availability and instant confirmation, while hotel owners can manage listings, reservations, and performance metrics through a single digital system.
+
+
 3. Stakeholders
 External Users
 - Hotel Guests (Users) – Search, book, and manage hotel reservations
