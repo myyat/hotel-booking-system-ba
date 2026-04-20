@@ -26,25 +26,25 @@ StayEase addresses these challenges by providing a centralized platform where tr
 
 
 4. Stakeholders
-External Users
+4.1 External Users
 - Hotel Guest – Searches, compares, and books hotel accommodations through the platform
 - Hotel Owner – Lists properties and manages room availability, pricing, and reservations
 
-Business Stakeholders
+4.2 Business Stakeholders
 - Product Owner – Defines business goals and approves system features
 - Customer Support Team – Handles user inquiries, complaints, and booking issues
 
-Technical Stakeholders
+4.3 Technical Stakeholders
 - Business Analyst – Gathers and documents system requirements
 - Developers – Build and maintain the system
 - QA/Testers – Test system functionality and ensure quality
 - System Administrator – Manages system operations and user access
 
-External Systems
+4.4 External Systems
 - Payment Gateway – Processes online payments securely
 - Notification Service – Sends booking confirmations via email/SMS
 
-4. Requirements Elicitation (Stakeholder Questions)
+5. Requirements Elicitation (Stakeholder Questions)
 This section includes assumed questions that a Business Analyst would ask stakeholders to understand system requirements for the Online Hotel Booking System.
 
 4.1 Hotel Guest (User) Questions
