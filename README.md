@@ -50,8 +50,8 @@ This section includes assumed questions that a Business Analyst would ask stakeh
 
 5.1 Hotel Guest Questions & Answers
 
-Q: Who are the target users of the system?
-A: The primary target users are travelers across Southeast Asia looking to search and book hotel accommodations           online. <br> 
+Q: Who are the target users of the system?  
+A: The primary target users are travelers across Southeast Asia looking to search and book hotel accommodations           online. 
 
 Q: Can users search hotels without logging in?
 A: Yes. Users can search and browse hotel listings without an account. Login is only required at the booking stage.
