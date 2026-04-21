@@ -46,15 +46,9 @@ External Systems
 5. Requirements Elicitation (Stakeholder Questions)
 This section includes assumed questions that a Business Analyst would ask stakeholders to understand system requirements for the Online Hotel Booking System.
 
-4.1 Hotel Guest (User) Questions
-- Who are the target users of the system?
-- Can users search hotels without logging in?
-- What filters should be available for hotel search (location, price, rating, dates)?
-- Can users view hotel details without making a booking?
-- Can users book instantly or require approval?
-- How will users receive booking confirmation (email, SMS, or in-app notification)?
-- What is the cancellation policy for bookings?
-- Is refund allowed in case of cancellation? If yes, will it be full or partial?
+5.1 Hotel Guest Questions & Answers
+Q: Who are the target users of the system?
+A: The primary target users are travelers across Southeast Asia looking to search and book hotel accommodations online.
 
 4.2 Hotel Owner Questions
 - How do hotel owners register on the platform?
