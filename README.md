@@ -47,7 +47,9 @@ External Systems
 This section includes assumed questions that a Business Analyst would ask stakeholders to understand system requirements for the Online Hotel Booking System.
 
 5.1 Hotel Guest Questions & Answers
+
 Q: Who are the target users of the system?
+
 A: The primary target users are travelers across Southeast Asia looking to search and book hotel accommodations           online.
 
 4.2 Hotel Owner Questions
