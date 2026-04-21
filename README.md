@@ -2,10 +2,12 @@
 Business Analysis case study of an Online Hotel Booking System
 
 1. Project Overview
+   
 Project Name: StayEase — Online Hotel Booking Platform
 StayEase is an online hotel booking platform that connects travelers with hotel owners across Southeast Asia. The platform enables users to search, compare, and book accommodations, while allowing hotel owners to list properties, manage availability, and handle reservations through a centralized digital system.
 
 2. Project Objectives
+   
 - Enable hotel owners to list, manage, and update property details, room availability, and pricing through a self-       service digital platform
 - Allow travelers to search, compare, and book hotel accommodations with instant confirmation
 - Support secure online payments and automated booking notifications
@@ -49,8 +51,28 @@ This section includes assumed questions that a Business Analyst would ask stakeh
 5.1 Hotel Guest Questions & Answers
 
 Q: Who are the target users of the system?
-
 A: The primary target users are travelers across Southeast Asia looking to search and book hotel accommodations           online.
+
+Q: Can users search hotels without logging in?
+A: Yes. Users can search and browse hotel listings without an account. Login is only required at the booking stage.
+
+Q: What filters should be available for hotel search?
+A: The search feature will support filters including location, price range, star rating, and check-in/check-out dates.
+
+Q: Can users view hotel details without making a booking?
+A: Yes. Users can view full hotel details, room types, and pricing without being required to make a booking.
+
+Q: Can users book instantly or is approval required?
+A: Instant booking is supported. No manual approval from hotel owners is required.
+
+Q: How will users receive booking confirmation?
+A: Users will receive booking confirmation via in-app notifications and email.
+
+Q: What is the cancellation policy?
+A: Users can cancel bookings up to 24 hours before the check-in date for a full refund.
+
+Q: Is refund allowed in case of cancellation?
+A: Yes. Full refund is provided if cancellation is made within the allowed cancellation period.
 
 4.2 Hotel Owner Questions
 - How do hotel owners register on the platform?
