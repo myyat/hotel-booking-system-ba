@@ -4,9 +4,10 @@ Business Analysis case study of an Online Hotel Booking System
 ## 1. Project Overview
    
 **Project Name:** StayEase — Online Hotel Booking Platform
+
 StayEase is an online hotel booking platform that connects travelers with hotel owners across Southeast Asia. The platform enables users to search, compare, and book accommodations, while allowing hotel owners to list properties, manage availability, and handle reservations through a centralized digital system.
 
-2. Project Objectives
+## 2. Project Objectives
    
 - Enable hotel owners to list, manage, and update property details, room availability, and pricing through a self-       service digital platform
 - Allow travelers to search, compare, and book hotel accommodations with instant confirmation
@@ -14,10 +15,10 @@ StayEase is an online hotel booking platform that connects travelers with hotel 
 - Provide administrators with tools to manage users, listings, and transactions
 - Reduce reliance on manual booking processes and high-commission third-party platforms
 
-3. Problem Statment
+## 3. Problem Statment
    
 For Travelers:
-Travelers currently lack a reliable online platform to search and compare hotel accommodations. Without real-time      visibility into room availability and pricing, booking decisions become difficult and time-consuming. Additionally, there is no automated confirmation system, requiring users to follow up manually to verify their reservation status.
+Travelers currently lack a reliable online platform to search and compare hotel accommodations. Without real-time     visibility into room availability and pricing, booking decisions become difficult and time-consuming. Additionally, there is no automated confirmation system, requiring users to follow up manually to verify their reservation status.
 
 For Hotel Owners:
 Hotel owners have no dedicated digital platform to list and manage their properties online. Reservations are handled manually through phone calls or walk-in inquiries, leading to inefficiencies and risk of double bookings. Furthermore, owners lack digital tools to track occupancy rates and monitor revenue performance.
@@ -25,27 +26,28 @@ Hotel owners have no dedicated digital platform to list and manage their propert
 StayEase Solution:
 StayEase addresses these challenges by providing a centralized platform where travelers can search, compare, and book accommodations with real-time availability and instant confirmation, while hotel owners can manage listings, reservations, and performance metrics through a single digital system.
 
-4. Stakeholders
+## 4. Stakeholders
    
-External Users
+### 4.1 External Users
 - Hotel Guest – Searches, compares, and books hotel accommodations through the platform
 - Hotel Owner – Lists properties and manages room availability, pricing, and reservations
 
-Business Stakeholders
+### 4.2 Business Stakeholders
 - Product Owner – Defines business goals and approves system features
 - Customer Support Team – Handles user inquiries, complaints, and booking issues
 
-Technical Stakeholders
+### 4.3 Technical Stakeholders
 - Business Analyst – Gathers and documents system requirements
 - Developers – Build and maintain the system
 - QA/Testers – Test system functionality and ensure quality
 - System Administrator – Manages system operations and user access
 
-External Systems
+### 4.4 External Systems
 - Payment Gateway – Processes online payments securely
 - Notification Service – Sends booking confirmations via email/SMS
 
-5. Requirements Elicitation (Stakeholder Questions)
+## 5. Requirements Elicitation (Stakeholder Questions)
+
 This section includes assumed questions that a Business Analyst would ask stakeholders to understand system requirements for the Online Hotel Booking System.
 
 5.1 Hotel Guest Questions & Answers
