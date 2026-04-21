@@ -76,14 +76,25 @@ A: Users can cancel bookings up to 24 hours before the check-in date for a full 
 Q: Is refund allowed in case of cancellation?  
 A: Yes. Full refund is provided if cancellation is made within the allowed cancellation period.
 
-### 5.2 Hotel Owner Questions
-- How do hotel owners register on the platform?
-- Can hotel owners manage their own listings?
-- Can they update room availability and pricing in real time?
-- How are bookings assigned or notified to hotel owners?
-- Can hotel owners view and manage booking history?
+### 5.2 Hotel Owner Questions and Answers
+
+Q: How do hotel owners register on the platform?  
+A: Hotel owners can register by providing their business name, contact information, and email address. After account verification by the system administrator, they can proceed to list their properties.
+
+Q: Can hotel owners manage their own listings?  
+A: Yes. Hotel owners have full control over their listings, including updating hotel descriptions, room types, photos, and pricing.
+
+Q: Can they update room availability and pricing in real time?  
+A: Yes. Hotel owners can update room availability and pricing in real time through their dashboard.
+
+Q: How are bookings assigned or notified to hotel owners?  
+A: Hotel owners receive instant booking notifications via their dashboard and email whenever a new reservation is made.
+
+Q: Can hotel owners view and manage booking history?  
+A: Yes. Hotel owners can view past and current reservations, track booking status, and manage bookings through their dashboard.
   
-4.3 Business & Product Questions
+### 5.3 Business & Product Questions and Answers
+
 - Will the system be developed as a web application, mobile application, or both?
 - What is the business model (commission-based, subscription, or both)?
 - Is online payment mandatory for booking confirmation?
