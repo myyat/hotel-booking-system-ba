@@ -51,7 +51,7 @@ This section includes assumed questions that a Business Analyst would ask stakeh
 5.1 Hotel Guest Questions & Answers
 
 Q: Who are the target users of the system?
-A: The primary target users are travelers across Southeast Asia looking to search and book hotel accommodations           online.
+A: The primary target users are travelers across Southeast Asia looking to search and book hotel accommodations           online. <br> 
 
 Q: Can users search hotels without logging in?
 A: Yes. Users can search and browse hotel listings without an account. Login is only required at the booking stage.
@@ -74,7 +74,7 @@ A: Users can cancel bookings up to 24 hours before the check-in date for a full 
 Q: Is refund allowed in case of cancellation?
 A: Yes. Full refund is provided if cancellation is made within the allowed cancellation period.
 
-4.2 Hotel Owner Questions
+5.2 Hotel Owner Questions
 - How do hotel owners register on the platform?
 - Can hotel owners manage their own listings?
 - Can they update room availability and pricing in real time?
