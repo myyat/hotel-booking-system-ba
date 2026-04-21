@@ -1,9 +1,9 @@
 # hotel-booking-system-ba
 Business Analysis case study of an Online Hotel Booking System
 
-1. Project Overview
+## 1. Project Overview
    
-Project Name: StayEase — Online Hotel Booking Platform
+**Project Name:** StayEase — Online Hotel Booking Platform
 StayEase is an online hotel booking platform that connects travelers with hotel owners across Southeast Asia. The platform enables users to search, compare, and book accommodations, while allowing hotel owners to list properties, manage availability, and handle reservations through a centralized digital system.
 
 2. Project Objectives
