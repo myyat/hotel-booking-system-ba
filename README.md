@@ -95,35 +95,62 @@ A: Yes. Hotel owners can view past and current reservations, track booking statu
   
 ### 5.3 Business & Product Questions and Answers
 
-- Will the system be developed as a web application, mobile application, or both?
-- What is the business model (commission-based, subscription, or both)?
-- Is online payment mandatory for booking confirmation?
-- What payment methods will be supported (card, digital wallet, etc.)?
-- Which regions or countries will the platform support (local or global)?
-- Are there any promotional or discount features required?
-  
-4.4 System / Technical Questions
-- How does the system handle double bookings for the same room?
-- What happens if room availability changes during the booking process?
-- What should happen if a payment transaction fails?
-- What external systems are required (payment gateway, notification service)?
-- Should the system support real-time updates for availability and booking status?
-- How will system notify users (email/SMS/app)?
+Q: Will the system be developed as a web or mobile application?
+A: Both. StayEase will be developed as a web and mobile application, allowing users to access the platform on their preferred device.
 
+Q: What is the business model?
+A: StayEase operates on a commission-based model, where a percentage fee is charged to hotel owners for each successful booking made through the platform.
+
+Q: Is online payment mandatory for booking confirmation?
+A: Yes. Online payment is mandatory to confirm a booking. Reservations are only secured upon successful payment.
+
+Q: What payment methods will be supported?
+A: The platform will support major credit/debit cards and popular digital wallet options.
+
+Q: What happens if a payment transaction fails? 
+A: If payment fails, the booking will not be confirmed, and users will be prompted to retry the payment or choose a different payment method.
+
+Q: Which regions will the platform support?
+A: The platform will initially focus on travelers across Southeast Asia.
+
+Q: Are there any promotional or discount features required?
+A: Yes. The platform will support basic promotional features including promo codes and seasonal discounts.
+  
+### 5.4 System / Technical Questions and Answers
+
+Q: How does the system handle double bookings?
+A: The system displays real-time room availability. When a user initiates a booking, the selected room is temporarily locked during the booking and payment process. Once the booking is confirmed and payment is completed, the room is marked as unavailable, preventing other users from booking the same room. Users attempting to book an unavailable room will receive a notification.
+
+Q: What happens if room availability changes during the booking process?
+A: If room availability changes during the booking process, the system will notify the user that the selected room is no longer available and prompt them to select an alternative.
+
+Q: What external systems are required?
+A: The platform integrates with a payment gateway to process online transactions securely and a notification service to deliver booking confirmations and alerts via in-app notifications and email.
+
+Q: Should the system support real-time updates?
+A: Yes. The system supports real-time updates for room availability and booking status, allowing users to make informed booking decisions.
+
+Q: How will the system notify users?
+A: Users will receive notifications through their profile dashboard and registered email address.
 These questions are based on assumptions for learning purposes and simulate real-world requirement gathering in a Business Analysis project. No real stakeholder interviews were conducted.
 
-5. System Scope
-In Scope (What system includes)
-- Users can search hotels by location and dates
-- Users can view hotel details (price, rooms, amenities)
-- Users can book available rooms
-- Users can make online payments
-- Users can cancel bookings (based on policy)
-- Hotel owners can add and manage hotel listings
-- Hotel owners can update room availability and pricing
-- System sends booking confirmation notifications
+## 6. System Scope
 
-Out of Scope (What system does NOT include)
+### 6.1 In Scope 
+- User registration and login
+- Hotel search and filtering
+- View hotel details and room availability
+- Online booking with instant confirmation
+- Booking cancellation and refund processing
+- Secure online payment integration
+- Booking management for users and hotel owners
+- Hotel listing and management for owners
+- Real-time availability updates
+- Notifications (in-app and email)
+- Admin management of users, listings, and bookings
+- Hotel review and rating system
+
+### 6.2 Out of Scope 
 - Flight booking functionality
 - Travel package or tour services
 - Loyalty or reward programs (for now)
