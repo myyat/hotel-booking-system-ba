@@ -158,11 +158,23 @@ These questions are based on assumptions for learning purposes and simulate real
 - Multi-language support
 - Offline payment processing 
 
-
-
-
-
-
+## 7. System Flow
+### 7.1 User Flow 
+1. User opens the platform and searches hotels by location and date
+2. System displays a list of available hotels based on user criteria 
+3. User selects a hotel 
+4. System displays hotel details including room types, prices and availablity 
+5. User selects a room and proceed to booking 
+6. System prompts the user to log in or create an account (if not already loggedin) 
+7. User logs in or registers
+8. System temporarily locks the selected room during the booking process
+9. User selects a payment method and makes payment
+10. System processes the payment
+11. If payment is successful 
+- System confirms the booking
+- User receives confirmation via email and in-app notification 
+    
+ 
 
 
 
