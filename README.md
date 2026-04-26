@@ -172,13 +172,27 @@ These questions are based on assumptions for learning purposes and simulate real
 10. System processes the payment
 11. If payment is successful 
 - System confirms the booking
-- User receives confirmation via email and in-app notification 
-    
- 
+- User receives confirmation via email or in-app notifications
+12. If payment fails
+- User is notified to retry or select a different payment method
+13. User cancels the booking within the allowed period (up to 24 hours before checkin)
+14. System processes the cancellation and issues a full refund
+  
+### 7.2 Hotel Owner Flow
+1. Hotel owner opens the platform and registers as a business partner
+2. System records the registration and notifies the owner the account is under review
+3. Admin reviews and approves the account
+4. System notifies the hotel owner of successful registration
+5. Hotel ownner adds hotel and room details including location, room types, pricing, guest capacity, extra bed charges, amenities and property policies
+6. System saves hotel information
+7. Hotel owner updates room availabilty and pricing through the dashboard
+8. System saves updated information
+9. When a booking is made, system notifies the owner via in-app notification
+10. Hotel owner views and manages booking history through the dashboard
 
 
 
 
-- 
-- Offline payment (cash handling)
+
+oon- Offline payment (cash handling)
 - Third-party integrations beyond basic payment and notification
