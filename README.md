@@ -110,27 +110,27 @@ A: The platform will support major credit/debit cards and popular digital wallet
 Q: What happens if a payment transaction fails? 
 A: If payment fails, the booking will not be confirmed, and users will be prompted to retry the payment or choose a different payment method.
 
-Q: Which regions will the platform support?
+Q: Which regions will the platform support?  
 A: The platform will initially focus on travelers across Southeast Asia.
 
-Q: Are there any promotional or discount features required?
+Q: Are there any promotional or discount features required?  
 A: Yes. The platform will support basic promotional features including promo codes and seasonal discounts.
   
 ### 5.4 System / Technical Questions and Answers
 
-Q: How does the system handle double bookings?
+Q: How does the system handle double bookings?  
 A: The system displays real-time room availability. When a user initiates a booking, the selected room is temporarily locked during the booking and payment process. Once the booking is confirmed and payment is completed, the room is marked as unavailable, preventing other users from booking the same room. Users attempting to book an unavailable room will receive a notification.
 
-Q: What happens if room availability changes during the booking process?
+Q: What happens if room availability changes during the booking process?  
 A: If room availability changes during the booking process, the system will notify the user that the selected room is no longer available and prompt them to select an alternative.
 
-Q: What external systems are required?
+Q: What external systems are required?  
 A: The platform integrates with a payment gateway to process online transactions securely and a notification service to deliver booking confirmations and alerts via in-app notifications and email.
 
-Q: Should the system support real-time updates?
+Q: Should the system support real-time updates?  
 A: Yes. The system supports real-time updates for room availability and booking status, allowing users to make informed booking decisions.
 
-Q: How will the system notify users?
+Q: How will the system notify users?  
 A: Users will receive notifications through their profile dashboard and registered email address.
 These questions are based on assumptions for learning purposes and simulate real-world requirement gathering in a Business Analysis project. No real stakeholder interviews were conducted.
 
@@ -151,8 +151,22 @@ These questions are based on assumptions for learning purposes and simulate real
 - Hotel review and rating system
 
 ### 6.2 Out of Scope 
-- Flight booking functionality
-- Travel package or tour services
-- Loyalty or reward programs (for now)
+- Flight booking and transportation services
+- Loyalty programs and reward systems
+- Advanced analytics and reporting dashboards
+- Integration with third-party travel platforms
+- Multi-language support
+- Offline payment processing 
+
+
+
+
+
+
+
+
+
+
+- 
 - Offline payment (cash handling)
 - Third-party integrations beyond basic payment and notification
