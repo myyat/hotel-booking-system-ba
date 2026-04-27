@@ -95,19 +95,19 @@ A: Yes. Hotel owners can view past and current reservations, track booking statu
   
 ### 5.3 Business & Product Questions and Answers
 
-Q: Will the system be developed as a web or mobile application?
+Q: Will the system be developed as a web or mobile application?  
 A: Both. StayEase will be developed as a web and mobile application, allowing users to access the platform on their preferred device.
 
-Q: What is the business model?
+Q: What is the business model?  
 A: StayEase operates on a commission-based model, where a percentage fee is charged to hotel owners for each successful booking made through the platform.
 
-Q: Is online payment mandatory for booking confirmation?
+Q: Is online payment mandatory for booking confirmation?  
 A: Yes. Online payment is mandatory to confirm a booking. Reservations are only secured upon successful payment.
 
-Q: What payment methods will be supported?
+Q: What payment methods will be supported?  
 A: The platform will support major credit/debit cards and popular digital wallet options.
 
-Q: What happens if a payment transaction fails? 
+Q: What happens if a payment transaction fails?  
 A: If payment fails, the booking will not be confirmed, and users will be prompted to retry the payment or choose a different payment method.
 
 Q: Which regions will the platform support?  
@@ -189,6 +189,37 @@ These questions are based on assumptions for learning purposes and simulate real
 8. System saves updated information
 9. When a booking is made, system notifies the owner via in-app notification
 10. Hotel owner views and manages booking history through the dashboard
+
+### 7.3 Admin Flow
+1. Admin logs in to the system
+2. System displays the admin dashboard
+3. Admin reviews hotel owner registration requests
+4. Admin approves or rejects based on the following criteria
+   - If required information is complete and valid, registration is approved
+   - If information is incomplete, invlaid or suspicious, registration is rejected
+5. System updates the account status and notifies to the hotel owner
+6. Admin monitors the hotel listings on the platform
+7. Admin can edit, suspend, or remove listings that violate platform policies and notify the owner
+8. Admin monitors bookings and transactions
+9. System displays booking and payment records to the admin
+10. Admin manages user accounts (view, suspend or deactivate users if necessary)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
