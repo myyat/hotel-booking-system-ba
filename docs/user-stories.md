@@ -1,5 +1,5 @@
 ## Epic 1: Guest / User Booking System 
-### User Story-001: Search Hotels 
+### User Story-1: Search Hotels 
 As a traveler, 
 I want to search for hotels by location and travel dates, 
 So that I can find suitable accommodations that meet my preferences. 
@@ -16,3 +16,21 @@ So that I can find suitable accommodations that meet my preferences.
 - Given the user is on search hotels page  
   When no hotels match the search criteria  
   Then the system displays a message "No results found" 
+
+### User Story-2: View hotel details
+As a traveler, 
+I want to view the hotel details
+so that I can decide if the hotel is suitable for me.
+
+**Acceptance Criteria**
+- Given the user is on the hotel details page  
+  When the user views the hotel details  
+  Then the system displays detailed information including price, room type, location, amenities, and reviews
+
+- Given the user is on the hotel details page  
+  When the page loads  
+  Then the system displays accurate and up-to-date hotel information including price, room type, location, amenities,   and reviews
+
+### User Story-3: Book a hotel
+As a traveler,
+I want to 
