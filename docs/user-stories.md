@@ -42,7 +42,7 @@ so that I can stay during my trip
   Then the system temporarily locks the selected room and displays the guest details page
 
 - Given the user is on the guest details page  
-  When the user enters requiered information and selects a payment method  
+  When the user enters required information and selects a payment method  
   Then the system proceeds to payment processing
 
 - Given the user is on the guest details page  
@@ -61,11 +61,30 @@ so that I can stay during my trip
   When the payment transaction fails  
   Then the system displays an error message and prompt the user to retry or select a different paymethod
 
-- Given the selected room is no longer available 
+- Given the selected room is no longer available   
   When the user attempts to book  
-  The system displays a message "This room is no longer available" 
+  Then system displays a message "This room is no longer available" 
 
+### User Story-4: Make a payment 
+As a traveler,   
+I want to make a payment  
+so that I can confirm my booking. 
 
+**Acceptance Criteria**
+- Given the user submits payment  
+  When the system processes the payment  
+  Then the system validates the payment details
+
+- Given the payment is successful  
+  Then the system confirms the payment and completes the booking
+
+- Given the payment fails
+  Then the system displays an error message and prompts the user to retry
+
+- Given the user enters invalid payment details  
+  When the user submits payment  
+  Then the system displays validation message
+  
 
 
 
