@@ -76,7 +76,7 @@ so that I can confirm my booking.
   Then the system displays an error message and prompts the user to retry
 
 - Given the user is on the guest details page
-  When the user enters invalid payment details
+  When the user submits payment with invalid payment details
   Then the system displays a validation message 
 
   
