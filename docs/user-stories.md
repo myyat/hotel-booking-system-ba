@@ -63,20 +63,20 @@ I want to make a payment
 so that I can confirm my booking. 
 
 **Acceptance Criteria**
-- Given the user is on the guest details page 
-  When the user submits payment 
+- Given the user is on the guest details page   
+  When the user submits payment  
   Then the system processes the payment securely 
 
 - Given the user submits payment  
-  When the payment is processed successfully
+  When the payment is processed successfully  
   Then the system confirms the payment and completes the booking
 
-- Given the user submits payment
-  When the payment processing fails
+- Given the user submits payment  
+  When the payment processing fails  
   Then the system displays an error message and prompts the user to retry
 
-- Given the user is on the guest details page
-  When the user submits payment with invalid payment details
+- Given the user is on the guest details page  
+  When the user submits payment with invalid payment details  
   Then the system displays a validation message 
 
   
