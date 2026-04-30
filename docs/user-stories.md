@@ -38,28 +38,20 @@ so that I can stay during my trip
 
 **Acceptance Criteria** 
 - Given the user is on the hotel booking page  
-  When the user selects room type, number of rooms and clicks "Book"  
+  When the user selects a room type, number of rooms and clicks "Book"  
   Then the system temporarily locks the selected room and displays the guest details page
 
 - Given the user is on the guest details page  
   When the user enters required information and selects a payment method  
   Then the system proceeds to payment processing
 
-- Given the user is on the guest details page  
-  When the payment is completed successfully  
-  Then the system confirms the booking and displays a message "Booking confirmed"
-
 - Given the user is on the hotel booking page  
-  When the user clicks "Book" without selecting a room type, number of rooms  
+  When the user clicks "Book" without selecting a room type and number of rooms  
   Then the system displays a message "Please select a room type and number of rooms"
 
 - Given the user is on the guest details page  
   When the user clicks "Book" without selecting a payment method  
   Then the system displays a message "Please select a payment method"
-
-- Given the user is on the guest details page  
-  When the payment transaction fails  
-  Then the system displays an error message and prompt the user to retry or select a different paymethod
 
 - Given the selected room is no longer available   
   When the user attempts to book  
