@@ -89,12 +89,14 @@ so that I can manage my travel plans and receive refund if eligible
 **Acceptance Criteria**
 - Given the user is on the booking details page  
   When the user cancels the booking within the allowed cancellation period  
-  Then the system confirms the cancellation and displays a message "Booking cancelled"  
+  Then the system confirms the cancellation 
+  And displays a message "Booking cancelled"  
   And the system issues a full refund according to cancellation policy
 
 - Given the user is on the booking details page  
   When the user cancels the booking after the allowed cancellation period  
-  Then the system rejects the cancellation and displays a message "This booking cannot be cancelled at this time" 
+  Then the system rejects the cancellation 
+  And displays a message "This booking cannot be cancelled at this time" 
 
 - Given the user cancels the booking within the allowed cancellation period
   When the system processes the refund
