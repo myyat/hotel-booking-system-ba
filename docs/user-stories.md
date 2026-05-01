@@ -69,12 +69,10 @@ so that I can confirm my booking.
 
 - Given the user submits payment  
   When the payment is processed successfully  
-  Then the system confirms the payment and completes the booking
-
-- Given the user submits payment
-  When the payment is processed successfully
-  Then the system confirms the booking and sends a confirmation via email or in-app notification 
-
+  Then the system confirms the payment 
+  And completes the booking
+  And sends a confirmation via email and in-app notification
+  
 - Given the user submits payment  
   When the payment processing fails  
   Then the system displays an error message and prompts the user to retry
