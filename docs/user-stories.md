@@ -80,18 +80,18 @@ so that I can confirm my booking.
   Then the system displays a validation message 
 
 ### User Story-5: Cancel Booking
-As a traveler, 
-I want to cancel my booking
+As a traveler,  
+I want to cancel my booking  
 so that I can manage my travel plans and receive refund if eligible
 
 **Acceptance Criteria**
-- Given the user is on the booking details page
-  When the user cancels the booking within the allowed cancellation period
-  Then the system confirms the cancellation and displays a message "Booking cancelled" 
+- Given the user is on the booking details page  
+  When the user cancels the booking within the allowed cancellation period  
+  Then the system confirms the cancellation and displays a message "Booking cancelled"  
   And the system issues a full refund according to cancellation policy
 
-- Given the user is on the booking details page
-  When the user cancels the booking after the allowed cancellation period
+- Given the user is on the booking details page  
+  When the user cancels the booking after the allowed cancellation period  
   Then the system rejects the cancellation and displays a message "This booking cannot be cancelled at this time" 
 
 
