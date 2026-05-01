@@ -111,18 +111,18 @@ so that I can list my hotel and receive bookings.
 
 **Acceptance Criteria**
 - Given the hotel owner is on the hotel registration page  
-  When the hotel owner enters requierd information including hotel name, location, room types, number of guests for a   room, amenities and clicks "Registers"  
-  Then the system accepts registration  
-  And the system approves registration if all information is valid  
-  And the system notifies the hotel owner "Register approved" via mail or in-app notification 
+  When the hotel owner enters requierd information including hotel name, location, room types, room capacity,           amenities and clicks "Registers"  
+  Then the system records the registration 
+  And set the account status to "Pending Review"  
+  And notifies the hotel owner "Your registration is under review" via mail or in-app notification 
 
 - Given the hotel owner is on the hotel registration page  
-  When the hotel owner clicks "Registers" without entering requierd information including hotel name, location, room    types, number of guests for a room, amenities 
-  Then the system rejects registration
-  And the system displays a message "Register is not allowed at this time. Please enter requried information to         complete" 
+  When the hotel owner clicks "Registers" without entering requierd information 
+  Then the system rejects the submission
+  And displays a message "Please enter all requried information to complete registration" 
 
-- Given the hotel owner is on the hotel registration page  
-  When the hotel owner is already registered  
+- Given the hotel owner is already registered  
+  When the hotel owner attempts to register again 
   Then the system displays a message "This account is already registered" 
 
 
