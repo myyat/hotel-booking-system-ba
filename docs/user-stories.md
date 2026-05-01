@@ -103,8 +103,37 @@ so that I can manage my travel plans and receive refund if eligible
   The system issues the refund
   And notifies the traveler via email and in-app notification 
 
+## Epic 2: Hotel Owner Management System 
+### User Story-1: Register as a Hotel Owner
+As a hotel owner,
+I want to register on the platform 
+so that I can list my hotel and receive bookings.
+
+**Acceptance Criteria**
+- Given the hotel owner is on the hotel registration page  
+  When the hotel owner enters requierd information including hotel name, location, room types, number of guests for a   room, amenities and clicks "Registers"  
+  Then the system accepts registration  
+  And the system approves registration if all information is valid  
+  And the system notifies the hotel owner "Register approved" via mail or in-app notification 
+
+- Given the hotel owner is on the hotel registration page  
+  When the hotel owner clicks "Registers" without entering requierd information including hotel name, location, room    types, number of guests for a room, amenities 
+  Then the system rejects registration
+  And the system displays a message "Register is not allowed at this time. Please enter requried information to         complete" 
+
+- Given the hotel owner is on the hotel registration page  
+  When the hotel owner is already registered  
+  Then the system displays a message "This account is already registered" 
 
 
-  
+
+
+
+
+
+
+
+
+
 
 
