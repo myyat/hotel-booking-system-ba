@@ -96,7 +96,10 @@ so that I can manage my travel plans and receive refund if eligible
   When the user cancels the booking after the allowed cancellation period  
   Then the system rejects the cancellation and displays a message "This booking cannot be cancelled at this time" 
 
-
+- Given the user cancels the booking within the allowed cancellation period
+  When the system processes the refund
+  The system issues the refund
+  And notifies the traveler via email and in-app notification 
 
 
 
