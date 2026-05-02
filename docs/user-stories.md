@@ -150,22 +150,22 @@ I want to manage rooms and pricing
 so that I can update room types and adjust prices according to demand or seasons
 
 **Acceptance Criteria**
-- Given the hotel owner is on the room management page
-  When the hotel owner adds or updates room types, prices, availability and clicks "Save"
-  Then the system saves the room details
+- Given the hotel owner is on the room management page  
+  When the hotel owner adds or updates room types, prices, availability and clicks "Save"  
+  Then the system saves the room details  
   And displays a message "Room details updated successfully"
 
-- Given the hotel owner is on the room management page
-  When the hotel owner enters invalid price (e.g., negative value)
-  Then the system displays a message "Invalid price. Please enter a valid amount"
+- Given the hotel owner is on the room management page  
+  When the hotel owner enters invalid price (e.g., negative value)  
+  Then the system displays a message "Invalid price. Please enter a valid amount"  
 
-- Given the hotel owner is on the room management page
-  When the hotel owner clicks "Save" without entering required information
-  Then the system displays a message "Please fill in all required room details"
+- Given the hotel owner is on the room management page  
+  When the hotel owner clicks "Save" without entering required information  
+  Then the system displays a message "Please fill in all required room details"  
 
-- Given the hotel owner is on the room management page
-  When the hotel owner clicks "Save" without making any changes
-  Then the system displays a message "No changes were made" 
+- Given the hotel owner is on the room management page  
+  When the hotel owner clicks "Save" without making any changes  
+  Then the system displays a message "No changes were made"  
   And does not update the room details
 
 
