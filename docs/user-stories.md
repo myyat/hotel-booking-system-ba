@@ -125,9 +125,24 @@ so that I can list my hotel and receive bookings.
   When the hotel owner attempts to register again 
   Then the system displays a message "This account is already registered" 
 
+### User Story-2: Add hotel details
+As a hotel owner,  
+I want to add hotel details  
+so that I can list my property on the platform for travelers to view and book
 
+**Acceptance Criteria**
+- Given the hotel owner is on the hotel details page  
+  When the hotel owner enters required information including hotel name, location, amenities, prices, photos and        clicks "Submit"  
+  Then the system saves the hotel information  
+  And displays a message "Hotel details added successfully"   
 
+- Given the hotel owner is on the hotel details page  
+  When the hotel owner clicks "Submit" without entering required information  
+  Then the system displays a message "Please fill in all required hotel details to complete"
 
+- Given a hotel with the same name and location already exists  
+  When the hotel owner attempts to add the same hotel  
+  Then the system displays a message "This hotel is already listed" 
 
 
 
