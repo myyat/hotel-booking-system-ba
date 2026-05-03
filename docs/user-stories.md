@@ -170,7 +170,7 @@ so that I can update room types and adjust prices according to demand or seasons
 
  ### User Story-4: Manage Bookings
 As a hotel owner,
-I want to manage bookings
+I want to manage bookings, 
 so that I can view, track and handle customer researvations efficiently.
 
 **Acceptance Criteria**
@@ -184,7 +184,16 @@ so that I can view, track and handle customer researvations efficiently.
 
 - Given the hotel owner is on the booking management page  
   When there are no bookings available  
-  Then the system displays a message "No bookings found" 
+  Then the system displays a message "No bookings found"
+
+## Epic 3: Admin Management System 
+### User Story-1: Review Registration
+As an admin, 
+I want to review registrations, 
+so that I can verify and decide whether to approve or reject them based on platform rules
+
+
+
 
 
 
