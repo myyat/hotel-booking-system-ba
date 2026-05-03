@@ -168,9 +168,23 @@ so that I can update room types and adjust prices according to demand or seasons
   Then the system displays a message "No changes were made"  
   And does not update the room details
 
+ ### User Story-4: Manage Bookings
+As a hotel owner,
+I want to manage bookings
+so that I can view, track and handle customer researvations efficiently.
 
+**Acceptance Criteria**
+Given the hotel owner is on the booking management page
+When the system loads bookings
+Then the system displays a list of bookings with details such as customer name, room type, booking dates and status
 
+Given the hotel owner is on the booking management page
+When the hotel owner selects a booking
+Then the system displays detailed booking information
 
+Given the hotel owner is on the booking management page
+When there are no bookings available
+Then the system displays a message "No bookings found" 
 
 
 
