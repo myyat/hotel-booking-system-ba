@@ -89,7 +89,7 @@ so that I can manage my travel plans and receive refund if eligible
 **Acceptance Criteria**
 - Given the user is on the booking details page  
   When the user cancels the booking within the allowed cancellation period  
-  Then the system confirms the cancellation 
+  Then the system confirms the cancellation  
   And displays a message "Booking cancelled"  
   And the system issues a full refund according to cancellation policy
 
@@ -111,17 +111,17 @@ so that I can list my hotel and receive bookings.
 
 **Acceptance Criteria**
 - Given the hotel owner is on the hotel registration page  
-  When the hotel owner enters requierd information including hotel name, location, room types, room capacity,           amenities and clicks "Registers"  
-  Then the system records the registration 
+  When the hotel owner enters requierd information including business name, contact information, email and password     and clicks "Register"
+  Then the system creates the account 
   And set the account status to "Pending Review"  
-  And notifies the hotel owner "Your registration is under review" via mail or in-app notification 
+  And notifies the hotel owner "Your registration is under review" via email or in-app notification 
 
 - Given the hotel owner is on the hotel registration page  
-  When the hotel owner clicks "Registers" without entering requierd information 
-  Then the system rejects the submission
-  And displays a message "Please enter all requried information to complete registration" 
+  When the hotel owner clicks "Register" without entering requierd information 
+  Then the system prevents submission
+  And displays a message "Please enter all required information to complete registration" 
 
-- Given the hotel owner is already registered  
+- Given the email is already registered  
   When the hotel owner attempts to register again 
   Then the system displays a message "This account is already registered" 
 
@@ -174,17 +174,17 @@ I want to manage bookings
 so that I can view, track and handle customer researvations efficiently.
 
 **Acceptance Criteria**
-Given the hotel owner is on the booking management page
-When the system loads bookings
-Then the system displays a list of bookings with details such as customer name, room type, booking dates and status
+- Given the hotel owner is on the booking management page  
+  When the system loads bookings  
+  Then the system displays a list of bookings with details such as customer name, room type, booking dates and status
 
-Given the hotel owner is on the booking management page
-When the hotel owner selects a booking
-Then the system displays detailed booking information
+- Given the hotel owner is on the booking management page  
+  When the hotel owner selects a booking  
+  Then the system displays detailed booking information
 
-Given the hotel owner is on the booking management page
-When there are no bookings available
-Then the system displays a message "No bookings found" 
+- Given the hotel owner is on the booking management page  
+  When there are no bookings available  
+  Then the system displays a message "No bookings found" 
 
 
 
