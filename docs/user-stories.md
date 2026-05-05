@@ -58,36 +58,36 @@ so that I can stay during my trip
   Then system displays a message "This room is no longer available" 
 
 ### User Story-4: Make a payment 
-As a traveler,   
-I want to make a payment  
+As a traveler,    
+I want to make a payment   
 so that I can confirm my booking. 
 
 **Acceptance Criteria**
-- Given the user is on the guest details page   
-  When the user submits payment  
+- Given the user is on the guest details page    
+  When the user submits payment   
   Then the system processes the payment securely 
 
-- Given the user submits payment  
-  When the payment is processed successfully  
-  Then the system confirms the payment 
-  And completes the booking
+- Given the user submits payment    
+  When the payment is processed successfully    
+  Then the system confirms the payment  
+  And completes the booking  
   And sends a confirmation via email and in-app notification
   
-- Given the user submits payment  
-  When the payment processing fails  
+- Given the user submits payment    
+  When the payment processing fails     
   Then the system displays an error message and prompts the user to retry
 
-- Given the user is on the guest details page  
-  When the user submits payment with invalid payment details  
+- Given the user is on the guest details page    
+  When the user submits payment with invalid payment details    
   Then the system displays a validation message 
 
 ### User Story-5: Cancel Booking
-As a traveler,  
-I want to cancel my booking  
+As a traveler,    
+I want to cancel my booking    
 so that I can manage my travel plans and receive refund if eligible
 
 **Acceptance Criteria**
-- Given the user is on the booking details page  
+- Given the user is on the booking details page    
   When the user cancels the booking within the allowed cancellation period  
   Then the system confirms the cancellation  
   And displays a message "Booking cancelled"  
@@ -105,7 +105,7 @@ so that I can manage my travel plans and receive refund if eligible
 
 ## Epic 2: Hotel Owner Management System 
 ### User Story-1: Register as a Hotel Owner
-As a hotel owner,
+As a hotel owner,  
 I want to register on the platform 
 so that I can list my hotel and receive bookings.
 
