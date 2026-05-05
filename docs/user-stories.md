@@ -111,19 +111,19 @@ so that I can list my hotel and receive bookings.
 
 **Acceptance Criteria**
 - Given the hotel owner is on the hotel registration page  
-  When the hotel owner enters requierd information including business name, contact information, email and password     and clicks "Register"
-  Then the system creates the account 
-  And set the account status to "Pending Review"  
+  When the hotel owner enters requierd information including business name, contact information, email and password     and clicks "Register"  
+  Then the system creates the account  
+  And set the account status to "Pending Review"    
   And notifies the hotel owner "Your registration is under review" via email or in-app notification 
 
-- Given the hotel owner is on the hotel registration page  
-  When the hotel owner clicks "Register" without entering requierd information 
-  Then the system prevents submission
+- Given the hotel owner is on the hotel registration page    
+  When the hotel owner clicks "Register" without entering requierd information   
+  Then the system prevents submission  
   And displays a message "Please enter all required information to complete registration" 
 
-- Given the email is already registered  
-  When the hotel owner attempts to register again 
-  Then the system displays a message "This account is already registered" 
+- Given the email is already registered    
+  When the hotel owner attempts to register again  
+  Then the system displays a message "This account is already registered"   
 
 ### User Story-2: Add hotel details
 As a hotel owner,  
@@ -131,35 +131,35 @@ I want to add hotel details
 so that I can list my property on the platform for travelers to view and book
 
 **Acceptance Criteria**
-- Given the hotel owner is on the hotel details page  
+- Given the hotel owner is on the hotel details page    
   When the hotel owner enters required information including hotel name, location, amenities, prices, photos and        clicks "Submit"  
-  Then the system saves the hotel information  
+  Then the system saves the hotel information    
   And displays a message "Hotel details added successfully"   
 
-- Given the hotel owner is on the hotel details page  
-  When the hotel owner clicks "Submit" without entering required information  
+- Given the hotel owner is on the hotel details page    
+  When the hotel owner clicks "Submit" without entering required information    
   Then the system displays a message "Please fill in all required hotel details to complete"
 
-- Given a hotel with the same name and location already exists  
-  When the hotel owner attempts to add the same hotel  
+- Given a hotel with the same name and location already exists    
+  When the hotel owner attempts to add the same hotel    
   Then the system displays a message "This hotel is already listed" 
 
 ### User Story-3: Manage Rooms and Pricing
-As a hotel owner,
-I want to manage rooms and pricing 
+As a hotel owner,  
+I want to manage rooms and pricing   
 so that I can update room types and adjust prices according to demand or seasons
 
 **Acceptance Criteria**
-- Given the hotel owner is on the room management page  
-  When the hotel owner adds or updates room types, prices, availability and clicks "Save"  
-  Then the system saves the room details  
+- Given the hotel owner is on the room management page    
+  When the hotel owner adds or updates room types, prices, availability and clicks "Save"    
+  Then the system saves the room details    
   And displays a message "Room details updated successfully"
 
-- Given the hotel owner is on the room management page  
-  When the hotel owner enters invalid price (e.g., negative value)  
+- Given the hotel owner is on the room management page    
+  When the hotel owner enters invalid price (e.g., negative value)   
   Then the system displays a message "Invalid price. Please enter a valid amount"  
 
-- Given the hotel owner is on the room management page  
+- Given the hotel owner is on the room management page    
   When the hotel owner clicks "Save" without entering required information  
   Then the system displays a message "Please fill in all required room details"  
 
@@ -207,20 +207,20 @@ I want to approve or reject hotel owner registrations
 so that only valid and verified hotel owners can access the platform
 
 **Acceptance Criteria**
-- Given the admin is viewing a pending registrations 
-  When the admin clicks "Approve"
-  Then the system updates the registration status to "Approved" 
-  And grants access to the hotel owner
+- Given the admin is viewing a pending registrations   
+  When the admin clicks "Approve"  
+  Then the system updates the registration status to "Approved"   
+  And grants access to the hotel owner  
   And displays a message "Registration approved successfully" 
 
-- Given the admin is viewing a pending registrations
-  When the admin clicks "Reject" 
-  Then the system updates the registration status to "Rejected" 
+- Given the admin is viewing a pending registrations  
+  When the admin clicks "Reject"   
+  Then the system updates the registration status to "Rejected"   
   And displays a message "Registration rejected successfully"
 
-- Given the registration has already been processed  
+- Given the registration has already been processed    
   When the admin attempts to approve or reject again  
-  Then the system prevents action
+  Then the system prevents action  
   And displays a message "This registration has already been processed"  
   
 
