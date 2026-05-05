@@ -192,6 +192,41 @@ As an admin,
 I want to review registrations, 
 so that I can verify and decide whether to approve or reject them based on platform rules
 
+**Acceptance Criteria**
+- Given the admin is on the review registration page  
+  When the system loads registration  
+  Then the system displays a list of registrations with details such as business name, contact information and owner    name
+
+- Given the admin is on the review registration page  
+  When the admin selects registration  
+  Then the system displays detailed registration information
+
+### User Story-2: Approve/Reject Registration 
+As an admin,  
+I want to approve or reject hotel owner registrations  
+so that only valid and verified hotel owners can access the platform
+
+**Acceptance Criteria**
+- Given the admin is viewing a pending registrations 
+  When the admin clicks "Approve"
+  Then the system updates the registration status to "Approved" 
+  And grants access to the hotel owner
+  And displays a message "Registration approved successfully" 
+
+- Given the admin is viewing a pending registrations
+  When the admin clicks "Reject" 
+  Then the system updates the registration status to "Rejected" 
+  And displays a message "Registration rejected successfully"
+
+- Given the registration has already been processed  
+  When the admin attempts to approve or reject again  
+  Then the system prevents action
+  And displays a message "This registration has already been processed"  
+  
+
+
+
+
 
 
 
