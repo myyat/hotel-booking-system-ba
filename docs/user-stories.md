@@ -201,26 +201,33 @@ so that I can verify and decide whether to approve or reject them based on platf
   When the admin selects registration  
   Then the system displays detailed registration information
 
+- Given a new registration is submitted
+  When the system receives the registration
+  Then the system notifies the admin via email or in-app notification 
+
 ### User Story-2: Approve/Reject Registration 
 As an admin,  
 I want to approve or reject hotel owner registrations  
 so that only valid and verified hotel owners can access the platform
 
 **Acceptance Criteria**
-- Given the admin is viewing a pending registrations   
+- Given the admin is viewing a pending registration   
   When the admin clicks "Approve"  
   Then the system updates the registration status to "Approved"   
-  And grants access to the hotel owner  
+  And grants platform access to the hotel owner
+  And notifies the hotel owner with the message "Your registration has been approved" via email and in-app              notification
   And displays a message "Registration approved successfully" 
 
-- Given the admin is viewing a pending registrations  
+- Given the admin is viewing a pending registration 
   When the admin clicks "Reject"   
-  Then the system updates the registration status to "Rejected"   
+  Then the system updates the registration status to "Rejected"
+  And notifies the hotel owner with the message "Your registration has been rejected" via email and in-app              notification
   And displays a message "Registration rejected successfully"
 
 - Given the registration has already been processed    
   When the admin attempts to approve or reject again  
-  Then the system prevents action  
+  Then the system prevents action
+  And displays a message "This registration has already been processed" 
   And displays a message "This registration has already been processed"  
   
 
